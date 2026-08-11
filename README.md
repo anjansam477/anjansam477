@@ -1,271 +1,96 @@
 <div align="center">
 
-👋 Hey, I'm Anjan
+Vuppala Anjan Sampath
 
 Full-Stack Developer · Java · Spring Boot · React · TypeScript
 
-<p>
-  <a href="https://github.com/anjansam477">
-    <img src="https://img.shields.io/badge/GitHub-anjansam477-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vuppala-anjan-sampath/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:vanjansampath@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+Building real-time, data-driven applications and exploring the engineering problems behind them.
 
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&center=true&vCenter=true&width=800&lines=Building+things+I+wish+already+existed;Java+%7C+Spring+Boot+%7C+React+%7C+TypeScript;Real-time+systems+%7C+Distributed+systems+%7C+System+Design;Always+building.+Always+learning."
-alt="Typing animation"
-/>
+<br/>
+
+<a href="https://github.com/anjansam477">
+  <img src="https://img.shields.io/badge/GitHub-anjansam477-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://www.linkedin.com/in/vuppala-anjan-sampath/">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:anjankv03@gmail.com">
+  <img src="https://img.shields.io/badge/Email-anjankv03%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
 </div>
 
-🧑‍💻 A little about me
+About
 
-I like building applications that have real engineering problems hiding underneath them.
+I'm a full-stack developer who enjoys building applications where the interesting part starts after CRUD — real-time updates, concurrency, consistency, authentication, caching, and scalable architecture.
 
-Not just CRUD.
+My main stack is Java, Spring Boot, React and TypeScript, with PostgreSQL, Redis, WebSockets and Docker.
 
-I enjoy working on things involving:
+Projects
 
-⚡ real-time communication
+OpenAuction
 
-🔐 authentication & authorization
+Real-time online auction platform
 
-🧵 concurrency and race conditions
-
-🗄️ database consistency
-
-🚀 caching and performance
-
-🧩 distributed systems
-
-🏗️ clean, scalable architecture
-
-🎨 full-stack product development
-
-My current playground is mostly Java + Spring Boot + React + TypeScript, with PostgreSQL, Redis, WebSockets, Docker and AWS around them.
-
-Build it. Break it. Understand why it broke. Build it better.
-
-🚀 Things I'm building
-
-🔨 OpenAuction
-
-A real-time online auction platform.
-
-Sellers list items, bidders compete live, and every bid, countdown tick, and winning hammer is pushed to everyone watching the lot instantly — no refresh, no polling.
-
-Stack
+Sellers list items and bidders compete live, with bids, countdowns and auction state synchronized instantly across connected clients. The system focuses on concurrency-safe bidding, proxy auto-bidding, anti-sniping, automatic settlement, real-time notifications and role-based access.
 
 React · TypeScript · Spring Boot · WebSockets / STOMP · PostgreSQL · Redis · Docker
 
-⚡ Highlights
+Momenta
 
-Live bidding — prices, bid feeds and countdowns update instantly through WebSockets.
+Collaborative moment wall
 
-Race-safe bidding — row locking + optimistic versioning prevent conflicting bids from both succeeding.
+A collaborative space where users create moments, invite contributors and collect text, images, GIFs, stickers and video into a shareable wall or slideshow. It includes role-based access, moderation, scheduled delivery, OAuth/JWT authentication, real-time notifications, Redis caching and analytics.
 
-Proxy auto-bidding — bidders can set a maximum and let the system bid incrementally on their behalf.
+React · TypeScript · Node.js · Socket.io · Redis · MongoDB
 
-Anti-sniping — bids during the final 60 seconds extend the auction by 30 seconds.
+Tech Stack
 
-Automatic settlement — expired auctions are closed automatically, winners are determined and reserve prices are respected.
+<div align="center">
 
-Real-time notifications — outbid, winning and auction-ending notifications through an in-app notification system.
+Languages
 
-Watchlists & dashboards — bidder and seller dashboards with activity, wins, spending, revenue and bid information.
-
-Admin moderation — user suspension/reinstatement and listing moderation.
-
-Authentication & roles — JWT access tokens, rotating refresh tokens and BIDDER / SELLER / ADMIN roles.
-
-<a href="https://github.com/anjansam477?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20my%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View projects"/>
-</a>
-
-🟣 Momenta
-
-A collaborative moment wall application.
-
-Create a moment, invite contributors, collect memories through text, images, GIFs, stickers and video, then share or present everything as a beautiful slideshow.
-
-✨ Highlights
-
-🎞️ Moment creation with title, occasion, description, themes, animation and audio
-
-📝 Rich-text, image, GIF, sticker and video posts
-
-🎨 Giphy-powered GIF and sticker discovery
-
-👥 Role-based access — owner, maintainer, poster, viewer and recipient
-
-📌 Post pinning and approval workflows
-
-🚩 Reporting and moderation with threshold-based actioning
-
-❤️ Reactions and post moderation
-
-📧 Scheduled delivery to recipients
-
-🔗 Share through QR code, copied links and social options
-
-📥 Downloadable wall and slideshow presentation views
-
-🌙 Persistent dark mode
-
-🔑 Google OAuth + JWT authentication
-
-📬 Email verification and password reset
-
-🔔 Real-time notifications using Socket.io
-
-⚡ Redis caching and rate limiting
-
-📊 Wall analytics for views, posts and reactions
-
-🎨 Live appearance customization
-
-🛡️ Domain and email allow/deny lists
-
-🧰 Admin data-management tools
-
-🧠 What I like exploring
-
-                    ┌──────────────────────┐
-                    │     Full-Stack       │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┴────────────────┐
-              ▼                                 ▼
-        Backend Systems                    Frontend Systems
-              │                                 │
-       Spring Boot / Java                 React / TypeScript
-              │                                 │
-              └──────────────┬──────────────────┘
-                             ▼
-                    ┌──────────────────┐
-                    │  Distributed     │
-                    │     Systems      │
-                    └────────┬─────────┘
-                             │
-            ┌────────────────┼────────────────┐
-            ▼                ▼                ▼
-         Redis           WebSockets       PostgreSQL
-            │                │                │
-            └────────────────┼────────────────┘
-                             ▼
-                    System Design / HLD
-
-I'm particularly interested in understanding the engineering trade-offs behind:
-
-Concurrency · Consistency · Caching · Scalability · Fault Tolerance · Real-Time Systems · API Design · Distributed Systems
-
-🛠️ My toolbox
-
-Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs" alt="Backend technologies"/>
-</p>
-
-Spring Boot Spring Security Spring Data JPA Hibernate REST APIs WebSockets STOMP Socket.io
+<img src="https://skillicons.dev/icons?i=java,js,ts,python" alt="Java, JavaScript, TypeScript, Python"/>
 
 Frontend
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,ts,js,redux,html,css" alt="Frontend technologies"/>
-</p>
+<img src="https://skillicons.dev/icons?i=react,redux,html,css" alt="React, Redux, HTML, CSS"/>
 
-React TypeScript JavaScript Redux React Hook Form TanStack Query Jest
+Backend
 
-Data
+<img src="https://skillicons.dev/icons?i=spring,nodejs,hibernate" alt="Spring Boot, Node.js, Hibernate"/>
 
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" alt="Databases"/>
-</p>
+Databases & Infrastructure
 
-DevOps / Cloud
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,aws,jenkins,nginx,git,github" alt="DevOps technologies"/>
-</p>
-
-CI/CD SonarQube Swagger Postman
-
-📚 Currently learning
-
-I'm going deeper into the stuff that becomes important when applications stop being small:
-
-🏗️ High-Level & Low-Level System Design
-
-🌐 Distributed Systems
-
-🔄 Event-driven architecture
-
-🧵 Concurrency & synchronization
-
-⚡ Caching strategies
-
-🛡️ Resilience & fault tolerance
-
-📡 Real-time architectures
-
-📈 Scalability & performance engineering
-
-💭 How I think about software
-
-Make it work
-     ↓
-Understand why it works
-     ↓
-Make it clean
-     ↓
-Make it observable
-     ↓
-Find the bottleneck
-     ↓
-Make it scale
-     ↓
-Repeat
-
-📊 GitHub
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=anjansam477&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=transparent" alt="GitHub stats"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjansam477&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top languages"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=anjansam477&hide_border=true&theme=transparent" alt="GitHub streak"/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,docker,git,github" alt="PostgreSQL, MySQL, MongoDB, Redis, Docker, Git, GitHub"/>
 
 </div>
 
-🤝 Let's connect
+<br/>
 
-I'm always happy to talk about software architecture, Java, Spring Boot, React, system design, side projects, or interesting engineering problems.
+Spring Boot · Spring Security · Spring Data JPA · REST APIs · WebSockets · STOMP · Socket.io · JWT · OAuth · Jest · Swagger · Postman · CI/CD
+
+What I'm Exploring
+
+System Design · Distributed Systems · Concurrency · Consistency · Caching · Real-Time Architecture · Scalability · Performance
+
+GitHub
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/vuppala-anjan-sampath/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:vanjansampath@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anjansam477&theme=github_dark" height="180" alt="GitHub statistics"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anjansam477&theme=github_dark" height="180" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=anjansam477&style=flat-square&label=Profile+Views" alt="Profile views"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anjansam477&theme=github_dark" width="820" alt="GitHub contribution summary"/>
 
-<br/><br/>
+</div>
 
-⭐ If you find something interesting here, feel free to explore.
+<div align="center">
+
+Thanks for stopping by.
+
+<a href="https://github.com/anjansam477">github.com/anjansam477</a>
 
 </div>
